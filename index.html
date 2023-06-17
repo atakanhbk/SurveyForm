@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <header>Survey Form</header>
+
+        <div class="card-body">
+            <p style="display: flex; justify-content: center; font-size: 20px; padding-left: 50px;">Let us know how we can improve freeCodeCamp</p>
+
+            <div class="card-body-question-answer-part">
+
+                <div class="card-body-question-answer-part-line">
+
+                    <div class="card-body-question-part">
+                        <p>* Name:</p>
+
+                    </div>
+                    <div class="card-body-answer-part">
+                        <input type="text" name="Name" placeholder="Enter Your Name" class="textInput">
+
+                    </div>
+                </div>
+
+                <div class="card-body-question-answer-part-line">
+
+                    <div class="card-body-question-part">
+                        <p>* Email:</p>
+
+                    </div>
+                    <div class="card-body-answer-part">
+                        <input type="text" name="Surname" placeholder="Enter Your Surname" class="textInput">
+
+                    </div>
+                </div>
+
+                <div class="card-body-question-answer-part-line">
+
+                    <div class="card-body-question-part">
+                        <p>* Age:</p>
+
+                    </div>
+                    <div class="card-body-answer-part">
+                        <input type="number" name="Age" placeholder="Enter Your Age" class="textInput"><br>
+                       
+        
+
+
+                    </div>
+                </div>
+
+                <div class="card-body-question-answer-part-line">
+
+                    <div class="card-body-question-part">
+                        <p>Which option best describes your current role?</p>
+
+                    </div>
+                    <div class="card-body-answer-part">
+                        <select name="currentRole" id="currentRole">
+                            <option value="student">Student</option>
+                            <option value="worker">Worker</option>
+                            <option value="freelance">Freelance</option>
+                            <option value="unemployed">Unemployed</option>
+
+                        </select>
+
+                    </div>
+                </div>
+
+                <div class="card-body-question-answer-part-line">
+
+                    <div class="card-body-question-part">
+                        <p>* How likely is that you would recommend freeCodeCamp to a friend?</p>
+
+                    </div>
+                    <div class="card-body-answer-part">
+                        <form>
+                        <input type="radio" id="definitely" name="decide" value="Bike">
+                        <label for="definitely"> Definitely</label><br>
+                        <input type="radio" id="maybe" name="decide" value="Car">
+                        <label for="maybe"> Maybe</label><br>
+                        <input type="radio" id="notSure" name="decide" value="Boat">
+                        <label for="notSure"> Not sure</label><br>
+                     
+                    </form>
+                    </div>
+                </div>
+
+                <div class="card-body-question-answer-part-line">
+
+                    <div class="card-body-question-part">
+                        <p>What do you like most in FCC:</p>
+
+                    </div>
+                    <div class="card-body-answer-part">
+                        <select name="FCC" id="FCC">
+                            <option value="student">Select an option</option>
+                            <option value="student">Student</option>
+                            <option value="worker">Worker</option>
+                            <option value="freelance">Freelance</option>
+                            <option value="unemployed">Unemployed</option>
+
+                        </select>
+
+                    </div>
+                </div>
+
+                <div class="card-body-question-answer-part-line">
+
+                    <div class="card-body-question-part">
+                        <p>* Things that should be improved in the future (Check all that apply):</p>
+
+                    </div>
+                    <div class="card-body-answer-part">
+                        <form>
+                            <input type="checkbox" id="frontend" name="frontend" value="Bike">
+                            <label for="frontend"> Front-end Projects</label><br>
+                            <input type="checkbox" id="backend" name="backend" value="Car">
+                            <label for="backend"> Back-end Projects</label><br>
+                            <input type="checkbox" id="data" name="data" value="Boat">
+                            <label for="data"> Data Visualization</label><br>
+                         
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

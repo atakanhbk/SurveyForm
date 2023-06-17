@@ -1,0 +1,107 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #A8D7D0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card-body {
+
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+}
+
+.card-body-question-answer-part{
+    position: absolute;
+    width: 100%;
+    height: 94%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body-question-answer-part-line{
+
+   width: 100%;
+   line-height: 60px;
+   height: auto;
+   display: flex;
+
+}
+
+.card-body-question-part{
+    width: 50%;
+    text-align: right;
+    padding: 0px 15px 0px 15px;
+    box-sizing: border-box;
+}
+
+.card-body-answer-part{
+    width: 50%;
+    text-align: left;
+    padding: 0px 15px 0px 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 0px;
+    
+
+}
+
+.textInput{
+    display: block;
+    width: 20vw;
+    height: 3vh;
+    margin-top: 15px;
+    margin-bottom: 15px;  
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 2px;
+
+}
+
+select{
+    display: block;
+    width: 10vw;
+    height: 4vh;
+    margin-top: 15px;
+    margin-bottom: 15px;  
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 2px;
+    background-color: #F0F0F0;
+}
+
+form{
+    padding-top: 15px;
+}
+
+input[type="checkbox"],
+input[type="radio"]{
+    margin: 10px;
+}
+
+
+
+
